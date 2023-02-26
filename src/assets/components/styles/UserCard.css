@@ -1,0 +1,89 @@
+hr {
+    height: 1px;
+    width: 300px;
+  }
+
+
+.userCard {
+    display: grid;
+    grid-row: auto;
+    border: solid 1px;
+    border-color: #8b8b8b;
+    max-width: 380px;
+    min-width: 380px;
+    max-height: 274px;
+    min-height: 274px;
+    justify-content: start;
+    padding: 15px;
+    margin: 15px;
+    float: left;
+    border-radius: 10px;
+    place-content: center;
+}
+
+@media (max-width: 810px) {
+    .userCard {
+        grid-column: auto;
+        justify-items: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+        max-width: 300px;
+        max-height: 204px;
+    }
+}
+.userCard__title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.userCard__list{
+    float:inline-start;
+    
+}
+
+.userCard__date span {
+    color: rgb(183, 183, 183);
+}
+
+.userCard__date {
+    margin: 10px;
+}
+
+.userCard__btn1 {
+    background-color: #D93F3F;
+    align-items: center;
+    color: white;
+    border: 5px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 43px;
+    height: 43px;
+    margin: 3px;
+    justify-content: end;
+    cursor: pointer;
+}
+.userCard__btn1:hover {
+    background-color: #d95959;
+}
+
+.userCard__btn2 {
+    background-color: #dcdada;
+    align-items: center;
+    color: rgb(92, 92, 92);
+    border: 5px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 43px;
+    height: 43px;
+    margin: 3px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.userCard__btn2:hover {
+    background-color: #acacac;
+}
+
+.userCard__footer {
+    margin-left: 220px;
+}
